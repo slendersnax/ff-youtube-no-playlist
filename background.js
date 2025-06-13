@@ -25,6 +25,7 @@ browser.menus.onClicked.addListener((info, tab) => {
         query.delete("index");
         url.search = query.toString();
         newTabProperties.url = url.href;
+        newTabProperties.active = false;
 
         // Provide openerTabId if possible (e.g. for tree style tabs)
         if(tab) {
