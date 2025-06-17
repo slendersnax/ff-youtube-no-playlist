@@ -1,21 +1,11 @@
 # YouTube No Playlist!
 
-This extension for firefox allows you to open YouTube videos from a playlist
-in a new tab as standalone videos without the (autoplaying) playlist.
+This is just a fork, the original is [here](https://github.com/klemens/ff-youtube-no-playlist).
 
-## Build
+## Changes
 
-The add-on can be built using `web-ext`:
+The new tab isn't automatically focused on.
 
-```sh
-web-ext build
-```
-
-This creates an unsigned add-on. To build a signed version, you have to change
-the add-on id and submit the add-on to [Mozilla Add-ons][amo] for signing.
-
-## Licence
+## License
 
 This add-on by Klemens Schölhorn is licenced under the terms of the GPLv3.
-
-[amo]: https://addons.mozilla.org/
